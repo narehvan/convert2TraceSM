@@ -1,0 +1,25 @@
+### traceSM name_ip: 0.0.0.42->Client;99.98.97.196->destination_1;
+com.avaya.asm  SIPMSGT 
+--------------------
+07/11/2024 11:04:54.344 --> 
+	octets: , Body Length:
+	ingress: { L0.0.0.42:9999/R99.98.97.196:5061/TLS/0xa }
+	egress: [NO TARGET]
+--------------------
+SIP/2.0 200 OK
+From: <sips:1111@sip.lab.test>;tag=24152d54-5795-4e18-98ef-458aed7d63cb
+To: <sips:1111@sip.lab.test>;tag=7220272274658692_local.1730828862558_74362_74387
+CSeq: 2 REGISTER
+Call-ID: 11111111-5d5d-4640-8be5-cccccccccccc
+Contact: <sips:1111@192.168.68.64:1155;transport=tls;avaya-sc-enabled>;expires=3567;q=1.0;reg-id=3;+sip.instance="<urn:uuid:a2222222-dddd-ffff-aaaa-e3rrrrc21rrr>";+avaya.model="vdic";+av.stir-shaken;+avaya.js-ver="1.0";+avaya.gmtoffset="0:00";+avaya.firmware="Workplace VDI 3.0.12.0-9-g3faeaa0e";+avaya.sn="n/a",<sips:1111@10.11.12.13:56203;avaya-sc-enabled;avtag=szh-sbc-01>;expires=3600;q=1.0;reg-id=2;+sip.instance="<urn:uuid:a45e5222-d83b-4444-aaaa-eeee71c2eeee>";+avaya.model="acw";+av.stir-shaken;+av-initiate-recon="true";+av.sip.sig="4";avaya-actions="presence.initiate-pubsub, presence.redirect";+av.sip.iptolerance
+Via: SIP/2.0/TLS 10.11.12.13:56203;branch=zzzzzzzzzzzzzzz-c943-4444-852a-ffffffffffff
+Date: Thu, 07 Nov 2024 10:04:55 GMT
+Server: AVAYA-SM-10.1.3.2.1013201
+Av-Global-Session-ID: bbbbbbbb-9cef-11ef-afff-000000000000
+Feature-Caps: *;+sip.avaya-sips-handling;+sip.avaya-mobile-device-notification
+Content-Length: 0
+
+
+
+RECEIVED 1203 bytes from 99.98.97.196:5061 {
+--------------------

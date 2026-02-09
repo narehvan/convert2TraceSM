@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="convert2TraceSM/convert2TraceSM.csproj" />
+  <Project Path="UnitTestProject/UnitTestProject.csproj" />
+  <Project Path="WPLogs.core/WPLogs.core.csproj" />
+</Solution>

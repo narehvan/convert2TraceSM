@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <Version>2.0.1.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="WPLogs.core_Tests\SampleData\SingleSIPMessage_200OK.txt" />
+    <None Remove="WPLogs.core_Tests\SampleData\SingleSIPMessage_REGISTER.txt" />
+    <None Remove="WPLogs.core_Tests\SampleData\SingleSIPMessage_REGISTER_converted.txt" />
+    <None Remove="WPLogs.core_Tests\SampleData\SingleSIPMessage_with_LogLines.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="WPLogs.core_Tests\SampleData\SingleSIPMessage_200OK_converted.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPLogs.core_Tests\SampleData\SingleSIPMessage_200OK.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPLogs.core_Tests\SampleData\SingleSIPMessage_REGISTER.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPLogs.core_Tests\SampleData\SingleSIPMessage_REGISTER_converted.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPLogs.core_Tests\SampleData\SingleSIPMessage_with_LogLines.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WPLogs.core\WPLogs.core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
