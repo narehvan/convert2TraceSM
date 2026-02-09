@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <StartupObject>convert2TraceSM.Program</StartupObject>
     <Title>Extract SIP messages and convert them to Session Manager traceSM format</Title>
-    <Version>2.0.1.1</Version>
+    <Version>2.0.1.2</Version>
     <Description>Extract SIP messages and convert them to Session Manager traceSM format</Description>
     <Copyright>2026</Copyright>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>

@@ -3,7 +3,7 @@ Extract SIP messages and convert them to Session Manager traceSM format
 
 ## Version
 
-2.0.1.1
+2.0.1.2
 
 ## Features:
 - Extract the SIP messages from Workplace client for Windows and convert them to a file that can be opened using traceSM

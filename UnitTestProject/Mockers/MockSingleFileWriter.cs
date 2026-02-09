@@ -42,6 +42,8 @@ namespace UnitTestProject.Mockers
 
         public void WriteToFile(string text)
         {
+            // do a dos2unix conversion to ensure that the new line character is consistent across platforms
+            text = text.Replace("\r\n", "\n").Replace("\r", "\n");
             _fileContent.Append(text);
         }
 

@@ -79,6 +79,8 @@ namespace WPLogs.core.Services
                 if (_isFileOpenAlready == false)
                     StartWriting();
 
+                // do a dos2unix conversion to ensure that the new line character is consistent across platforms
+                text = text.Replace("\r\n", "\n").Replace("\r", "\n");
                 _streamWriter.NewLine = NewLineCharacterSet;
                 _streamWriter!.WriteLine(text);
             }

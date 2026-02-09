@@ -7,7 +7,7 @@ namespace convert2TraceSM
     class Program
     {
         private static readonly string PRODUCT_NAME = "convert2TraceSM";
-        private static readonly string PRODUCT_VERSION = "2.0.1.1";
+        private static readonly string PRODUCT_VERSION = "2.0.1.2";
         private static readonly string PRODUCT_AUTHOR = "Arbi Arzouman";
 
         private static readonly int APP_RETURN_SUCCESS = 1;
