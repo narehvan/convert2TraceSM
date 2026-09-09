@@ -1,0 +1,17 @@
+2024-11-07 11:04:54.333 D [36308] [CSDK::SIP] SENDING 875 bytes to 99.98.97.196:5061 {
+
+REGISTER sips:sip.lab.test SIP/2.0
+From: <sips:1111@sip.lab.test>;tag=11111111-5795-4e18-98ef-cccccccccccc
+To: <sips:1111@sip.lab.test>
+Call-ID: 11111111-5d5d-4640-8be5-cccccccccccc
+CSeq: 1 REGISTER
+Max-Forwards: 70
+Via: SIP/2.0/TLS 10.11.12.13:56203;branch=zxcvzxcvzxcvzxc-5180-4943-8ff7-121212121212
+Supported: eventlist,outbound,replaces,vnd.avaya.ipo
+Allow: INVITE,ACK,OPTIONS,BYE,CANCEL,NOTIFY,MESSAGE,REFER,INFO,PUBLISH,UPDATE
+User-Agent: Avaya Communicator VDI/3.0 (3.37.0.156.28; Avaya CSDK; Microsoft Windows NT 10.0.20348.0)
+Contact: <sips:1111@10.11.12.13:56203;avaya-sc-enabled>;q=1;expires=3600;+avaya.model="acw";+sip.instance="<urn:uuid:a2222222-dddd-ffff-aaaa-e3rrrrc21rrr>";reg-id=2;+av.sip.iptolerance;+av.sip.sig=4;+av.stir-shaken;avaya-actions="presence.initiate-pubsub, presence.redirect"
+Content-Length:     0
+
+
+}
